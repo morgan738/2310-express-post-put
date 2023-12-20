@@ -99,7 +99,7 @@ const start = async () => {
         DROP TABLE IF EXISTS pokemon;
         CREATE TABLE pokemon(
             id SERIAL PRIMARY KEY,
-            name VARCHAR(100) NOT NULL,
+            name VARCHAR(100),
             type VARCHAR(100),
             generation INT
         );
